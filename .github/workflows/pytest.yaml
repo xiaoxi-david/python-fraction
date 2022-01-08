@@ -20,4 +20,4 @@ jobs:
         run: python -m pip install -r test-requirements.txt
 
       - name: Run pytest
-        run: pytest test-fraction.py
+        run: pytest test_fraction.py
